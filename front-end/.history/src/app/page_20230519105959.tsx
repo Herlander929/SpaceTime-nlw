@@ -12,8 +12,7 @@ export default function Home() {
         {/*Stripes */}
         <div className="absolute bottom-0 right-2  top-0 w-2 bg-stripes" />
         {/* sign in */}
-        <a href="" 
-        className="flex items-center gap-3 text-left hover:text-gray-50 transition-colors">
+        <a href="" className="flex items-center gap-3 text-left hover:text-gray-50 transition-colors">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
             <User className='h-5 w-5 text-gray-500' />
           </div>
@@ -36,7 +35,7 @@ export default function Home() {
 
         {/* copyright */}
         <div className="text-sm leading-relaxed text-gray-200">
-          Feito com 💜 no NLW da Rocketseat{' '}
+          Feito com 💜 no NLW da Rocketseat{''}
           <a target="_blank" 
           rel='noreferrer' 
           className="underline hover:text-gray-100" 
